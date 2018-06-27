@@ -1,5 +1,5 @@
 * get current login user for context
-    /users/user/current     GET
+    * /users/user/current     GET
     ```
     {
         "code": 200,
