@@ -117,7 +117,7 @@
     }
     ```
 * delete role
-    * /users/role/{role_id}
+    * /users/role/{role_id}         DELETE
     ```
     {
     "code": 200,
@@ -143,7 +143,7 @@
     ```
 
 * get details of permissions about one role
-    * /users/role/{role_id}/permissions
+    * /users/role/{role_id}/permissions         GET
     ```
     {
     "code": 200,

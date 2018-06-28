@@ -2,7 +2,7 @@
 	* auth/oauth/token   -H Accept:application/json  -H content-type: application/x-www-formurlencoded
 	* Authorization Basic username:angular_app; Password:ERP!@#angular
 		* (if Angular can not support) -H Authorization: Basic YW5ndWxhcl9hcHA6RVJQIUAjYW5ndWxhcg==
-	* form-data:
+	* form-data: 	POST
 	```
 	grant_type: password
 	username: {user_name}
