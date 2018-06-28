@@ -173,3 +173,49 @@
     }
     ```
 
+* delete user
+    * /users/user/{user_id}     DELETE
+    ```
+    {
+    "code": 200,
+    "message": null,
+    "data": {
+        "content": [
+            {
+                "id": 1,
+                "name": "tester1",
+                "email": "tester1@gmail.com",
+                "phone": "1122334455",
+                "avatar": null,
+                "jobStatus": null
+            },
+            {
+                "id": 2,
+                "name": "tester2",
+                "email": "tester2@gmail.com",
+                "phone": "1122334455",
+                "avatar": null,
+                "jobStatus": null
+            },
+            {
+                "id": 3,
+                "name": "tester4",
+                "email": "tester4@gmail.com",
+                "phone": "778899",
+                "avatar": null,
+                "jobStatus": null
+            }
+        ],
+        "last": true,
+        "totalPages": 1,
+        "totalElements": 3,
+        "size": 10,
+        "number": 0,
+        "first": true,
+        "sort": null,
+        "numberOfElements": 3
+        }
+    }
+    ```
+
+* 
