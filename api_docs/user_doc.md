@@ -202,3 +202,32 @@
         ]
     }
     ```
+
+* get user direct permissions
+    * /users/user/{user_id}/permissions
+    ```
+    {
+    "code": 200,
+    "message": null,
+    "data": {
+        "admin": {
+            "create": false,
+            "update": false,
+            "read": false,
+            "delete": false
+        },
+        "inventory": {
+            "create": false,
+            "update": false,
+            "read": false,
+            "delete": false
+        },
+        "user": {
+            "create": true,
+            "update": true,
+            "read": true,
+            "delete": true
+        }
+        }
+    }
+    ```
