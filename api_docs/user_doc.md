@@ -204,7 +204,7 @@
     ```
 
 * get user direct permissions
-    * /users/user/{user_id}/permissions
+    * /users/user/{user_id}/permissions         GET
     ```
     {
     "code": 200,
