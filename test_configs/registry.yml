@@ -1,8 +1,0 @@
-server:
-  port: 8761
-
-spring:
-  cloud:
-    config:
-      discovery:
-        enabled: true
