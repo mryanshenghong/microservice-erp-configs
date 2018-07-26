@@ -1,6 +1,6 @@
 * get stock items by commodity Id
 
-	* /stock/commodity/{commodityID}/items GET
+	* inventory/stock/commodity/{commodityID}/items GET
 
 	```
 	{
@@ -25,7 +25,7 @@
 
 * get stock items by stockIn Id
 
-	* /stock/stock_in/{stockInId} GET
+	* inventory/stock/stock_in/{stockInId} GET
 
 	```
 	{
@@ -44,7 +44,7 @@
 
 * get stock items by batchNO
 
-	/stock/batch/{batchNo} GET
+	inventory/stock/batch/{batchNo} GET
 
 	```
 	{
@@ -69,7 +69,7 @@
 
 * get items history snapshot
 	
-	/stock/snapshot?timestamp={timeStamp} GET
+	inventory/stock/snapshot?timestamp={timeStamp} GET
 
 	```
 	{
