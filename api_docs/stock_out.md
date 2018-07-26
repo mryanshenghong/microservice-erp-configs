@@ -1,6 +1,6 @@
 * get all stockOut
 
-	* /stock_out?accept={acceptType}&pageNo={pageNo}&pageSize={pageSize} GET
+	* inventory/stock_out?accept={acceptType}&pageNo={pageNo}&pageSize={pageSize} GET
 	* defaulet value: accept=list; pageNo=0; pagesize=10
 
 	```
@@ -38,7 +38,7 @@
 
 * get stockOut details by stockOut ID
 
-	* /stock_out/{stockOutId} GET
+	* inventory/stock_out/{stockOutId} GET
 
 	```
 	{
@@ -57,7 +57,7 @@
 
 * get stockOut details by item ID
 
-	* /stock_out/item/{itemId}
+	* inventory/stock_out/item/{itemId}
 
 	```
 	{
@@ -75,7 +75,7 @@
 
 * get stockOut list by pickout period 
 
-	* /stock_out/picked_time?accept={acceptType}&from={fromTime}&to={toTime}&pageNo={pageNo}&pageSize={pageSize} GET
+	* inventory/stock_out/picked_time?accept={acceptType}&from={fromTime}&to={toTime}&pageNo={pageNo}&pageSize={pageSize} GET
 	* defaulet value: accept=list; pageNo=0; pagesize=10; from="2000-01-01 00:00:00"; to=now time
 
 	```
@@ -113,7 +113,7 @@
 
 * get stockOut by picked purpose
 	
-	* /stock_out/purpose?accept={acceptType}&purpose={purpose}&pageNo={pageNo}&pageSize={pageSize} GET
+	* inventory/stock_out/purpose?accept={acceptType}&purpose={purpose}&pageNo={pageNo}&pageSize={pageSize} GET
 	* defaulet value: accept=list; pageNo=0; pagesize=10;
 
 	```
@@ -136,7 +136,7 @@
 
 * get stockOut by picked user id
 
-	* /stock_out/pick_user?accept={acceptType}&pick_user={pickUserId}&pageNo={pageNo}&pageSize={pageSize} GET
+	* inventory/stock_out/pick_user?accept={acceptType}&pick_user={pickUserId}&pageNo={pageNo}&pageSize={pageSize} GET
 	* defaulet value: accept=list; pageNo=0; pagesize=10;
 
 	```
@@ -158,7 +158,7 @@
 
 * get stockOut by approved user id 
 
-	* /stock_out/approve_user?accept={acceptType}&approve_user={approveUserId}&pageNo={pageNo}&pageSize={pageSize} GET
+	* inventory/stock_out/approve_user?accept={acceptType}&approve_user={approveUserId}&pageNo={pageNo}&pageSize={pageSize} GET
 	* defaulet value: accept=list; pageNo=0; pagesize=10;
 
 	```
@@ -188,7 +188,7 @@
 
 * get stockOut by custome criterion
 	
-	* /stock_out/~cirterion?accept={acceptType}&pageNo={pageNo}&pageSize={pageSize} POST
+	* inventory/stock_out/~cirterion?accept={acceptType}&pageNo={pageNo}&pageSize={pageSize} POST
 	* Request body: HashMap -> custome critetion
 	* defaulet value: accept=list; pageNo=0; pagesize=10;
 
