@@ -1,6 +1,6 @@
 * get all stockIn list
 	
-	* /stock_in?accept={acceptType}&pageNo={pageNo}&pageSize={pageSize} GET
+	* inventory/stock_in?accept={acceptType}&pageNo={pageNo}&pageSize={pageSize} GET
 	* defaulet value: accept=list; pageNo=0; pagesize=10
 
 	```
@@ -35,7 +35,7 @@
 
 * get stockIn details
 
-	* /stock_in/{stockInId} 
+	* inventory/stock_in/{stockInId} 
 
 	```
 	{
@@ -53,7 +53,7 @@
 
 * get stockIn details by batchNo
 
-	* /stock_in/batch/{batchNo} GET
+	* inventory/stock_in/batch/{batchNo} GET
 
 	```
 	{
@@ -72,7 +72,7 @@
 
 * get stockIn by commodity ID
 
-	* /stock_in/commodity/{CommodityId}?accept={acceptType}&pageNo={pageNo}&pageSize={pageSize} GET
+	* inventory/stock_in/commodity/{CommodityId}?accept={acceptType}&pageNo={pageNo}&pageSize={pageSize} GET
 	* defaulet value: accept=list; pageNo=0; pagesize=10
 
 	```
@@ -100,7 +100,7 @@
 
 * get StockIn By Receiver ID
 
-	* /stock_in/receiver/{receiverId}?accept={acceptType}&pageNo={pageNo}&pageSize={pageSize} GET
+	* inventory/stock_in/receiver/{receiverId}?accept={acceptType}&pageNo={pageNo}&pageSize={pageSize} GET
 	* defaulet value: accept=list; pageNo=0; pagesize=10
 
 	```
@@ -128,7 +128,7 @@
 
 * get stockIn By entry period
 
-	* /stock_in/entry_time?accept={acceptType}&from={fromTime}&to={toTime}&pageNo={pageNo}&pageSize={pageSize} GET
+	* inventory/stock_in/entry_time?accept={acceptType}&from={fromTime}&to={toTime}&pageNo={pageNo}&pageSize={pageSize} GET
 	* defaulet value: accept=list; pageNo=0; pagesize=10; from="2000-01-01 00:00:00"; to=now time
 
 	```
