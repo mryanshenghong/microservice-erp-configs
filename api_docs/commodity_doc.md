@@ -1,6 +1,6 @@
 * get all commodity list
 
-	* /commodity GET
+	* inventory/commodity GET
 
 	```
 	{
@@ -27,7 +27,7 @@
 
 * is commodity existed by name
 
-	* /commodity/name/{commodityName} GET
+	* inventory/commodity/name/{commodityName} GET
 
 	```
 	{
@@ -39,7 +39,7 @@
 
 * delete one commodity 
 
-	* /commodity/{commodityId} DELETE
+	* inventory/commodity/{commodityId} DELETE
 
 	```
 	{
@@ -59,7 +59,7 @@
 
 * display commodity in list only include id and name field
 
-	* /commodity OPTION
+	* inventory/commodity OPTION
 
 	```
 	{
@@ -80,7 +80,7 @@
 
 * create an comodity
 
-	* /commotidy -H Content-Type : application/json POST
+	* inventory/commotidy -H Content-Type : application/json POST
 	* name : not null; commodityType : not null; 
 
 	```
@@ -124,7 +124,7 @@
 
 * update commodity info
 
-	* /commodity/{commodityId} -H Content-Type : application/json POST
+	* inventory/commodity/{commodityId} -H Content-Type : application/json POST
 	* id : not null;
 
 	```
